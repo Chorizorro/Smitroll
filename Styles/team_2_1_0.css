@@ -1,0 +1,279 @@
+div#mainContent > section.configuration > h1 {
+	font-size: 1.5em;
+}
+div#mainContent > section.configuration > div.abstract {
+	color: #888888;
+    font-size: 0.8em;
+	margin-bottom: 16px;
+}
+div#mainContent > section.configuration > ul > li {
+	border-bottom: 1px solid #f5da32;
+	padding: 16px;
+}
+div#mainContent > section.configuration > ul > li:first-child {
+	border-top: 1px solid #f5da32;
+}
+div#mainContent > section.configuration > ul > li > header {
+    display: block;
+	height: 48px;
+    line-height: 48px;
+	overflow: hidden;
+    color: #C0A32F;
+    font-size: 1.33em;
+    font-weight: bold;
+}
+div#mainContent > section.configuration > ul > li > div.details {
+	border-top: 1px dashed #888;
+	padding: 16px 0;
+	margin-top: 16px;
+}
+div#mainContent > section.configuration > ul > li > div.details > div.abstract {
+	font-size: 0.8em;
+	color: #888;
+	margin-bottom: 18px;
+}
+div#mainContent > section.configuration > ul > li > div.details > div.team {
+    margin-top: 18px;
+}
+div#mainContent > section.configuration > ul > li > div.details > div.team > input {
+    margin-left: 18px;
+    display: inline-block;
+    color: #ddd;
+    background-color: #353535;
+    padding: 4px;
+    border: 1px solid #F5DA32;
+    width: 140px;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.67) inset;
+	-moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.67) inset;
+	-webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.67) inset;
+}
+div#mainContent > section.configuration > ul > li > div.details > div.team > input.no
+{
+    border-color: #B92B00;
+}
+div#mainContent > section.configuration > ul > li > div.details input::-webkit-input-placeholder,
+div#mainContent > section.configuration > ul > li > div.details input:-moz-placeholder,
+div#mainContent > section.configuration > ul > li > div.details input::-moz-placeholder,
+div#mainContent > section.configuration > ul > li > div.details input:-ms-input-placeholder
+{
+    color: #888;
+    font-style: italic;
+}
+div#mainContent > section.configuration > ul > li > div.details > ul.picker {
+}
+div#mainContent > section.configuration > ul > li > div.details > ul.picker > li {
+	display: block;
+}
+div#mainContent > section.configuration > ul > li > div.details > ul.picker > li > a {
+	display: block;
+	height: 28px;
+	line-height: 28px;
+	font-size: 1.05em;
+	color: #d5d5d5;
+	padding: 4px;
+}
+div#mainContent > section.configuration > ul > li > div.details > ul.picker > li > a:hover {
+	color: #eee;
+	text-decoration: none;
+}
+div#mainContent > section.configuration > ul > li > div.details > ul.picker > li > a > span.abstract {
+	color: #888;
+	font-size: 0.75em;
+	margin-left: 12px;
+}
+div#mainContent > section.configuration > ul > li > div.details > ul.picker > li > a > div.radiobutton {
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin: 4px 12px;
+	background: url("Pics/mesh_radiobutton.png") no-repeat;
+}
+div#mainContent > section.configuration > ul > li > div.details > ul.picker > li > a:hover > div.radiobutton {
+	background-position: 0 -20px;
+}
+div#mainContent > section.configuration > ul > li > div.details > ul.picker > li > a > div.radiobutton.checked {
+	background-position: -20px 0;
+}
+div#mainContent > section.configuration > ul > li > div.details > ul.picker > li > a:hover > div.radiobutton.checked {
+	background-position: -20px -20px;
+}
+button#apocalypshitIsComing {
+	display: block;
+	width: 420px;
+	height: 84px;
+	color: #f5da32;
+	margin: 48px auto 24px;
+	background: url("Pics/layout_mesh.png") repeat-x #9c2400;
+	background-size: 4px 84px;
+	font-family: 'FutureMillennium',Arial,Helvetica,sans-serif;
+	font-size: 2.2em;
+	border: 1px solid #b92b00;
+}
+button#apocalypshitIsComing:hover {
+	cursor: pointer;
+	color: #FFFBDF;
+}
+button#apocalypshitIsComing[disabled] {
+	opacity: 0.33;
+}
+button#apocalypshitIsComing[disabled]:hover {
+	color: #f5da32;
+}
+div#resultFrame {
+	background: #353535;
+	box-shadow: 0 5px 10px #000 inset;
+	-moz-box-shadow: 0 5px 10px #000 inset;
+	-webkit-box-shadow: 0 5px 10px #000 inset;
+}
+section#result {
+	display: none;
+	padding: 18px 0;
+}
+section#result h2 {
+	font-family: 'FutureMillennium',Arial,Helvetica,sans-serif;
+	font-size: 1.33em;
+	font-weight: normal;
+	text-shadow: 2px 2px 2px rgba(204, 0, 0, 0.5);
+	color: #F5DA32;
+	text-align: center;
+	margin: 16px 0 12px;
+}
+section#result > div.team {
+    margin-bottom: 36px;
+}
+section#result > div.team > div > div.player {
+    border-top: 1px solid #232323;
+    padding: 18px 0 12px;
+}
+section#result > div.team > div > div.player:first-child {
+    border-top: none;
+}
+section#result > div.team > div > div.player > * {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 18px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+section#result > div.team > div > div.player > *:first-child {
+    margin-left: 0;
+}
+section#result > div.team > div > div.player > div.name {
+    width: 120px;
+    font-weight: bold;
+    font-size: 18px;
+}
+section#result > div.team > div > div.player > div.god {
+    width: 100px;
+}
+section#result > div.team > div > div.player > div.god > div.top {
+    height: 76px;
+    overflow: hidden;
+}
+section#result > div.team > div > div.player > div.god > div.top > img {
+    background: url("Pics/Icons/Default/God.png") no-repeat;
+    background-size: contain;
+    display: block;
+    height: 76px;
+    margin: 0 auto;
+    max-height: 76px;
+    max-width: 76px;
+    width: 76px;
+}
+section#result > div.team > div > div.player > div.god > div.top > a {
+    float: right;
+    /* display: block; */
+    display: none;
+    width: 12px;
+    height: 12px;
+    background: url("Pics/sprite_refresh.png") no-repeat;
+}
+section#result > div.team > div > div.player > div.god > div.top > a:hover {
+    background-position: 0 -12px;
+}
+section#result > div.team > div > div.player > div.god > div.name {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+section#result > div.team > div > div.player > div.build {
+    width: 600px;
+    height: 104px;
+    overflow: hidden;
+}
+section#result > div.team > div > div.player > div.build > ul {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 32px;
+}
+section#result > div.team > div > div.player > div.build > ul:first-child {
+    margin-left: 0;
+}
+section#result > div.team > div > div.player > div.build > ul > li {
+    width: 66px;
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin-left: 6px;
+}
+section#result > div.team > div > div.player > div.build > ul > li:first-child {
+    margin-left: 0;
+}
+section#result > div.team > div > div.player > div.build > ul > li > img {
+    display: block;
+    width: 56px;
+    height: 56px;
+    margin: auto;
+    background: url("Pics/Icons/Default/Item.jpg") no-repeat #232323;
+    background-size: cover;
+    overflow: hidden;
+}
+section#result > div.team > div > div.player > div.cost {
+    width: 64px;
+    color: #F5DA32;
+    text-align: right;
+    font-weight: bold;
+    line-height: 56px;
+}
+section#result > div.team > div > div.player > div.build > ul > li > div.name {
+	font-size: 0.5em;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	height: 32px;
+	margin: 10px 0 0;
+	text-overflow: ellipsis;
+	overflow: hidden;
+    white-space: normal;
+}
+section#result > div.share {
+	text-align: center;
+}
+section#result > div.share > div.abstract {
+	font-size: 0.8em;
+	color: #888;
+	font-style: italic;
+}
+section#result > div.share > input#resultPermalink {
+	margin: 12px auto 0;
+	width: 720px;
+	border: 1px solid #b92b00;
+	padding: 4px;
+	color: #F5DA32;
+	text-align: center;
+	background: #232323;
+	box-shadow: 2px 2px 2px #000 inset;
+	-moz-box-shadow: 2px 2px 2px #000 inset;
+	-webkit-box-shadow: 2px 2px 2px #000 inset;
+}
+section#result div.vShadow {
+	margin: auto;
+	height: 15px;
+	background: url("Pics/shadowseparator-2.png") center no-repeat;
+}

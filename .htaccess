@@ -1,0 +1,41 @@
+#version 2.1.0
+#author Chorizorro
+#date 2013-07-31
+
+### GENERAL ###
+
+SetEnv PHP_VER 5_4
+SetEnv REGISTER_GLOBALS 0
+Options +FollowSymLinks
+Options -Indexes
+
+### REWRITE RULES ###
+
+RewriteEngine On
+
+## Rewrite errors ##
+
+RewriteRule ^error/(400|401|403|404|408|500|501|502|503)$ Pages/error.php?code=$1 [L]
+
+## Rewrite pages ##
+
+DirectoryIndex Pages/generator.php
+RewriteRule ^generator(.*)?$ Pages/generator.php$1
+RewriteRule ^team(.*)?$ Pages/team.php$1
+RewriteRule ^about(.*)?$ Pages/about.php$1
+RewriteRule ^changelog(.*)?$ Pages/changelog.php$1
+RewriteRule ^ws/generateBuildTeam(.*)?$ Pages/WS/generateBuildTeam.php$1
+RewriteRule ^ws/generateBuild(.*)?$ Pages/WS/generateBuild.php$1
+#RewriteRule ^ws/generateGod(.*)?$ Pages/WS/generateGod.php$1
+
+### ERROR LINKING ###
+
+ErrorDocument 400 http://smitroll.com/error/400
+ErrorDocument 401 http://smitroll.com/error/401
+ErrorDocument 403 http://smitroll.com/error/403
+ErrorDocument 404 http://smitroll.com/error/404
+ErrorDocument 408 http://smitroll.com/error/408
+ErrorDocument 500 http://smitroll.com/error/500
+ErrorDocument 501 http://smitroll.com/error/501
+ErrorDocument 502 http://smitroll.com/error/502
+ErrorDocument 503 http://smitroll.com/error/503

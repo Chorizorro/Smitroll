@@ -1,0 +1,417 @@
+div#mainContent > section.message {
+	margin: 24px auto 6px;
+    border: 1px solid #b72b00;
+    background: rgba(183, 43, 0, 0.2);
+    font-size: 0.8em;
+    padding: 12px 24px;
+    text-align: center;
+    line-height: 1.5em;
+}
+div#mainContent > section.configuration > h1 {
+	font-size: 1.5em;
+}
+div#mainContent > section.configuration > div.abstract {
+	color: #888888;
+    font-size: 0.8em;
+	margin-bottom: 16px;
+}
+div#mainContent > section.configuration > ul > li {
+	border-bottom: 1px solid #f5da32;
+	padding: 16px;
+}
+div#mainContent > section.configuration > ul > li:first-child {
+	border-top: 1px solid #f5da32;
+}
+div#mainContent > section.configuration > ul > li > header {
+	height: 48px;
+	overflow: hidden;
+}
+div#mainContent > section.configuration > ul > li > header > a {
+	display: block;
+	height: 48px;
+	line-height: 48px;
+	font-weight: bold;
+	font-size: 1.33em;
+}
+div#mainContent > section.configuration > ul > li > header > a:hover {
+	text-decoration: none;
+}
+div#mainContent > section.configuration > ul > li > header > a > div.checkbox {
+	float: left;
+	margin-right: 18px;
+	width: 48px;
+	height: 48px;
+	background: url("Pics/mesh_checkbox.png") no-repeat;
+}
+div#mainContent > section.configuration > ul > li > header > a:hover > div.checkbox {
+	background-position: 0 -48px;
+}
+div#mainContent > section.configuration > ul > li > header > a > div.checkbox.checked {
+	background-position: -48px 0;
+}
+div#mainContent > section.configuration > ul > li > header > a:hover > div.checkbox.checked {
+	background-position: -48px -48px;
+}
+div#mainContent > section.configuration > ul > li > div.details {
+	border-top: 1px dashed #888;
+	padding: 16px 0;
+	margin-top: 16px;
+	display: none;
+}
+div#mainContent > section.configuration > ul > li > div.details > div.abstract {
+	font-size: 0.8em;
+	color: #888;
+	margin-bottom: 18px;
+}
+div#mainContent > section.configuration > ul > li > div.details > div.controls {
+}
+div#mainContent > section.configuration > ul > li > div.details > div.controls > a {
+	margin: 0 12px;
+}
+div#mainContent > section.configuration > ul > li > div.details > div.controls > a:first-child {
+	margin: 0;
+}
+div#mainContent > section.configuration > ul > li > div.details > ul.picker {
+}
+div#mainContent > section.configuration > ul > li > div.details > ul.picker > li {
+	display: block;
+}
+div#mainContent > section.configuration > ul > li > div.details > ul.picker > li > a {
+	display: block;
+	height: 28px;
+	line-height: 28px;
+	font-size: 1.05em;
+	color: #d5d5d5;
+	padding: 4px;
+}
+div#mainContent > section.configuration > ul > li > div.details > ul.picker > li > a:hover {
+	color: #eee;
+	text-decoration: none;
+}
+div#mainContent > section.configuration > ul > li > div.details > ul.picker > li > a > span.abstract {
+	color: #888;
+	font-size: 0.75em;
+	margin-left: 12px;
+}
+div#mainContent > section.configuration > ul > li > div.details > ul.picker > li > a > div.radiobutton {
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin: 4px 12px;
+	background: url("Pics/mesh_radiobutton.png") no-repeat;
+}
+div#mainContent > section.configuration > ul > li > div.details > ul.picker > li > a:hover > div.radiobutton {
+	background-position: 0 -20px;
+}
+div#mainContent > section.configuration > ul > li > div.details > ul.picker > li > a > div.radiobutton.checked {
+	background-position: -20px 0;
+}
+div#mainContent > section.configuration > ul > li > div.details > ul.picker > li > a:hover > div.radiobutton.checked {
+	background-position: -20px -20px;
+}
+ul#availableGodsList {
+	margin-top: 12px;
+}
+ul#availableGodsList > li {
+	display: inline-block;
+	vertical-align: top;
+    margin: 4px 6px;
+	opacity: 0.2;
+	border: 1px solid #080808;
+	vertical-align: top;
+}
+ul#availableGodsList > li:hover {
+	cursor: pointer;
+	opacity: 0.4;
+	box-shadow: 0 0 12px #fff;
+	-moz-box-shadow: 0 0 12px #fff;
+	-webkit-box-shadow: 0 0 12px #fff;
+	-o-box-shadow: 0 0 12px #fff;
+}
+ul#availableGodsList > li.selected {
+	opacity: 1;
+	border-color: #f5da32;
+}
+ul#availableGodsList > li.selected:hover {
+}
+ul#availableGodsList > li > img {
+	width: 84px;
+	height: 84px;
+	display: block;
+}
+div#chosenGods {
+	margin: 12px 0;
+	font-weight: bold;
+}
+div#chosenGods > span {
+	font-weight: normal;
+	font-size: 0.9em;
+}
+button#apocalypshitIsComing {
+	display: block;
+	width: 420px;
+	height: 84px;
+	color: #f5da32;
+	margin: 48px auto 24px;
+	background: url("Pics/layout_mesh.png") repeat-x #9c2400;
+	background-size: 4px 84px;
+	font-family: 'FutureMillennium',Arial,Helvetica,sans-serif;
+	font-size: 2.2em;
+	border: 1px solid #b92b00;
+}
+button#apocalypshitIsComing:hover {
+	cursor: pointer;
+	color: #FFFBDF;
+}
+button#apocalypshitIsComing[disabled] {
+	opacity: 0.33;
+}
+button#apocalypshitIsComing[disabled]:hover {
+	color: #f5da32;
+}
+div#resultFrame {
+	background: #353535;
+	box-shadow: 0 5px 10px #000 inset;
+	-moz-box-shadow: 0 5px 10px #000 inset;
+	-webkit-box-shadow: 0 5px 10px #000 inset;
+}
+section#result {
+	display: none;
+	padding: 18px 0;
+}
+section#result > h1 {
+	font-size: 1.5em;
+	margin-bottom: 24px;
+}
+section#result h2 {
+	font-family: 'FutureMillennium',Arial,Helvetica,sans-serif;
+	font-size: 1.33em;
+	font-weight: normal;
+	text-shadow: 2px 2px 2px rgba(204, 0, 0, 0.5);
+	color: #F5DA32;
+	text-align: center;
+	margin: 16px 0 12px;
+}
+section#result > div.god {
+	display: inline-block;
+	vertical-align: top;
+	height: 280px;
+	width: 220px;
+	overflow: hidden;
+	text-align: center;
+	margin: 0 32px;
+}
+section#result .noContent {
+	display: none;
+}
+section#result > div.god > div.noContent {
+	width: 204px;
+	height: 72px;
+	text-align: center;
+	font-size: 1.5em;
+	color: #d5d5d5;
+	padding: 64px 8px;
+	line-height: 1.5em;
+}
+section#result > div.god > div.content {
+	text-align: center;
+}
+section#result > div.god > div.content > img {
+	margin: 12px auto 8px;
+	display: block;
+	width: 84px;
+	height: 84px;
+	max-width: 84px;
+	max-height: 84px;
+	background: url("Pics/Icons/Default/God.png");
+	background-size: contain;
+}
+section#result > div.god > div.content > div.name {
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #ddd;
+	margin-top: 36px;
+}
+section#result > div.god > div.content > div.nickname {
+	font-style: italic;
+	margin-top: 4px;
+	color: #ddd;
+}
+section#result > div.skills {
+	display: inline-block;
+	vertical-align: top;
+	height: 280px;
+	overflow: hidden;
+	width: 620px;
+}
+section#result > div.skills > div.noContent{
+	width: 604px;
+	text-align: center;
+	font-size: 1.5em;
+	color: #d5d5d5;
+	padding: 64px 8px;
+	line-height: 1.5em;
+}
+section#result > div.skills > div.content {
+	padding: 0 18px;
+}
+section#result > div.skills > div.content > div#resultSkillsAbstract{
+	font-size: 0.9em;
+	font-style: italic;
+	margin-bottom: 8px;
+}
+section#result > div.skills > div.content > table {
+	border: 2px solid #f5da32;
+	border-collapse: collapse;
+}
+section#result > div.skills > div.content > table tr {
+	height: 36px;
+}
+section#result > div.skills > div.content > table tr th {
+	text-align: center;
+	font-size: 0.9em;
+	font-weight: bold;
+	background: #232323;
+	border: 1px solid #C0A32F;
+	border-bottom: 2px solid #f5da32;
+}
+section#result > div.skills > div.content > table tr td {
+	border: 1px solid #C0A32F;
+	width: 24px;
+}
+section#result > div.skills > div.content > table tr td:first-child, section#result > div.skills > div.content > table tr th:first-child {
+	border-right: 2px solid #f5da32;
+	overflow: hidden;
+}
+section#result > div.skills > div.content > table tr td:first-child > img {
+	width: 36px;
+	height: 36px;
+	background: url("Pics/Icons/Default/Ability_1.jpg") no-repeat #232323;
+	background-size: cover;
+}
+section#result > div.skills > div.content > table tr.firstSkill td:first-child > img {
+	background-image: url("Pics/Icons/Default/Ability_1.jpg");
+}
+section#result > div.skills > div.content > table tr.secondSkill td:first-child > img {
+	background-image: url("Pics/Icons/Default/Ability_2.jpg");
+}
+section#result > div.skills > div.content > table tr.thirdSkill td:first-child > img {
+	background-image: url("Pics/Icons/Default/Ability_3.jpg");
+}
+section#result > div.skills > div.content > table tr.ultimate td:first-child > img {
+	background-image: url("Pics/Icons/Default/Ability_u.jpg");
+}
+section#result > div.skills > div.content > table tr td.checked {
+	background-color: #b92b00;
+}
+section#result > div.items {
+	margin-top: 16px;
+}
+section#result > div.items > div.noContent {
+	height: 164px;
+	text-align: center;
+	font-size: 1.5em;
+	color: #d5d5d5;
+	padding: 0 8px;
+	line-height: 164px;
+}
+section#result > div.items > div.content {
+	height: 200px;
+	padding: 16px 32px;
+}
+section#result > div.items > div.content > * {
+	vertical-align: top;
+}
+section#result > div.items > div.content > ul {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 64px;
+}
+section#result > div.items > div.content > ul:first-child {
+	margin-left: 0;
+}
+section#result > div.items > div.content > ul > li {
+	display: inline-block;
+	vertical-align: top;
+	width: 84px;
+	padding: 0 8px;
+	vertical-align: top;
+	text-align: center;
+	border-left: 1px solid #232323;
+	margin-bottom: 8px;
+	font-size: 0.8em;
+}
+section#result > div.items > div.content > ul > li:first-child {
+	margin-left: 0;
+	border-left: none;
+}
+section#result > div.items > div.content > ul > li > img {
+	display: block;
+	margin: auto;
+	width: 56px;
+	height: 56px;
+	background: url("Pics/Icons/Default/Item.jpg") no-repeat #232323;
+	background-size: cover;
+	
+}
+section#result > div.items > div.content > ul > li > h3 {
+	font-size: 0.7em;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	height: 30px;
+	margin: 10px 0 8px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+section#result > div.items > div.content > ul > li > div.cost {
+	letter-spacing: 0.05em;
+}
+section#result > div.items > div.content > ul > li > div.cost > div.r2 {
+	color: #05e22d;
+}
+section#result > div.items > div.content > ul > li > div.cost > div.r1 {
+	color: #1bace1;
+}
+section#result > div.items > div.content > ul > li > div.cost > div.r0 {
+	color: #fd00eb;
+}
+section#result > div.items > div.content > div#resultTotalBuildCost {
+	color: #F5DA32;
+	margin-top: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+section#result > div.share {
+	text-align: center;
+}
+section#result > div.share > div.abstract {
+	font-size: 0.8em;
+	color: #888;
+	font-style: italic;
+}
+section#result > div.share > input#resultPermalink {
+	margin: 12px auto 0;
+	width: 720px;
+	border: 1px solid #b92b00;
+	padding: 4px;
+	color: #F5DA32;
+	text-align: center;
+	background: #232323;
+	box-shadow: 2px 2px 2px #000 inset;
+	-moz-box-shadow: 2px 2px 2px #000 inset;
+	-webkit-box-shadow: 2px 2px 2px #000 inset;
+}
+section#result > div.hShadow {
+	display: inline-block;
+	vertical-align: top;
+	width: 15px;
+	height: 280px;
+	background: url("Pics/shadowseparator-1.png") center no-repeat;
+	vertical-align: top;
+	margin: 18px 0 0;
+}
+section#result > div.vShadow {
+	margin: auto;
+	height: 15px;
+	background: url("Pics/shadowseparator-2.png") center no-repeat;
+}
